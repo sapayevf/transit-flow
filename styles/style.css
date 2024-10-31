@@ -57,7 +57,7 @@ body {
     background-image: url(../assets/images/section1-bgi.png);
     background-position: center;
     background-size: cover;
-    margin-bottom: 60px;
+    margin-bottom: 100px;
 }
 
 .footer-2 {
@@ -118,7 +118,7 @@ nav a:hover {
 
 .section-1 .title {
     position: absolute;
-    top: 120px;
+    top: 170px;
 }
 
 .s1-info {
@@ -144,8 +144,7 @@ h1 {
 .section-1 .primary-text {
     margin-bottom: 20px;
 }
-
-.section-1 .secondary-btn {
+.secondary-btn {
     padding: auto;
     padding: 15px 38px;
     border: none;
@@ -156,6 +155,10 @@ h1 {
     font-weight: 600;
     color: #23212A;
     cursor: pointer;
+}
+
+.section-2 {
+    margin-bottom: 100px;
 }
 
 .section-2 .container {
@@ -191,12 +194,138 @@ h1 {
     color: #1C1F35;
     margin-bottom: 15px;
 }
-
-.s2-card h2 {
+h2 {
     font-family: "Rubik";
     font-weight: 600;
     font-size: 28px;
     margin-top: 15px;
 }
 
+.s3-title h2 {
+    margin-bottom: 8px;
+}
+
+.section-3 {
+    margin-bottom: 80px;
+}
+
+.s3-bgi {
+    width: 100%;
+    z-index: -99;
+    position: relative;
+}
+
+.section-3 .s2-info {
+    display: inline;
+}
+
+.s3-title {
+    position: relative;
+    background-color: #ffffff;
+    padding: 70px;
+    display: flex;
+    align-items: start;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: -130px;
+    z-index: 1;
+}
+
+.s3-txt {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.s3-txt p {
+    font-family: "Rubik";
+    font-weight: 500;
+}
+
+.clients {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.clients-item {
+    border-top: 1px solid #D4D4D4;
+    border-bottom: 1px solid #D4D4D4;
+    padding: 40px 100px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.clients-item h3 {
+    font-size: 40px;
+    font-family: "Rubik";
+    font-weight: 500;
+}
+
+.clients-item p {
+    font-family: "League Spartan";
+    font-size: 18px;
+    color: #1C1F35;
+}
+
+.s4-cards {
+    margin: 0 auto;
+    padding: 0 60px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 70px;
+}
+
+.from-pstn {
+    width: 20%;
+    position: relative;
+}
+
+.s4-card {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    height: 300px;
+    background-image: url(../assets/images/liquid.png);
+    background-position: center;
+    background-size: cover;
+    transition: all 0.3s ease;
+}
+
+.s4-card:hover {
+    transform: scale(1.07);
+}
+
+.s4-card h5 {
+    color: white;
+    font-family: "Rubik";
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.s4-card p{
+    color: #FFB629;
+    font-size: 14px;
+}
+
+.section-4 button {
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    z-index: 2;
+    border: none;
+    background-image: url(../assets/icons/blue-bg.svg);
+    color: white;
+    margin-bottom: -220px;
+}
+
+.s4-bgi {
+    width: 100%;
+    z-index: -1;
+}
 
