@@ -329,3 +329,38 @@ h2 {
     z-index: -1;
 }
 
+.section-5 {
+    margin:80px 0;
+}
+
+.s5-title {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.s5-cards {
+    display: flex;
+    align-items: center;
+}
+
+.s5-card {
+    width: 50%;
+    padding: 50px;
+    background-color: #091242;
+}
+
+.s5-card-title-img {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.s5-text {
+    font-family: "Krub Italic";
+    font-weight: 500;
+    color: #666C89;
+    font-size: 13px;
+    margin-bottom: 25px;
+}
