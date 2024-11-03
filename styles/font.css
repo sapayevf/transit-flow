@@ -1,0 +1,77 @@
+@font-face {
+    font-family: "Krub";
+    src: url(../assets/fonts/Krub-Regular.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Krub";
+    src: url(../assets/fonts/Krub-Medium.ttf);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "Krub";
+    src: url(../assets/fonts/Krub-SemiBold.ttf);
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: "Krub Italic";
+    src: url(../assets/fonts/Krub-MediumItalic.ttf);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "Rubik";
+    src: url(../assets/fonts/Rubik-Regular.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Rubik";
+    src: url(../assets/fonts/Rubik-Medium.ttf);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "Rubik";
+    src: url(../assets/fonts/Rubik-SemiBold.ttf);
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: "Rubik";
+    src: url(../assets/fonts/Rubik-Bold.ttf);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "Rubik Italic";
+    src: url(../assets/fonts/Rubik-Italic.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Rubik Bold Italic";
+    src: url(../assets/fonts/Rubik-BoldItalic.ttf);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "League Spartan";
+    src: url(../assets/fonts/LeagueSpartan-Regular.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Syne";
+    src: url(../assets/fonts/Syne-Bold.ttf);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "Thabit";
+    src: url(../assets/fonts/Thabit_Regular.ttf);
+    font-weight: 400;
+}
