@@ -364,3 +364,42 @@ h2 {
     font-size: 13px;
     margin-bottom: 25px;
 }
+
+.section-6 {
+    position: relative;
+    background-color: #f4f4f4;
+    height: 717px;
+}
+
+.containerr {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 500px;
+}
+
+.s6-plane {
+    position: absolute;
+    top: 130px;
+    left: 170px;
+}
+
+.s6-title {
+    margin-right: 10px;
+}
+
+.section-6 h2 {
+    margin-bottom: 25px;
+}
+
+.section-6 .primary-text {
+    color: #666C89;
+    margin-bottom: 25px;
+}
+
+.s6-icons {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
