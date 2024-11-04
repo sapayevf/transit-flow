@@ -405,6 +405,10 @@ h2 {
     gap: 20px;
 }
 
+.section-8 {
+    margin-bottom: 70px;
+}
+
 .section-8 .s8-footer {
     padding: 110px 278px;
     background-color: #091242;
@@ -441,3 +445,58 @@ h2 {
     background: linear-gradient(127deg, #ffb629 0%, #ffda56 50.72%, #ffd7a6 100%);
 }
 
+.section-9 {
+    position: relative;
+    margin-bottom: 80px;
+}
+
+.section-9 .s1-info {
+    position: absolute;
+    left: 48%;
+}
+
+.s9-item {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    border-top: 1px solid #d6d6d6;
+    padding-top: 20px;
+    margin-bottom: 50px;
+}
+
+.s9-item-title {
+    width: 380px;
+    border-left: 1px solid #d6d6d6;
+    padding-left: 30px;
+}
+
+.s9-calendar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sit-title {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.s9-item-title ul li {
+    margin-top: 3px;
+    font-weight: 500;
+}
+
+.section-10 .s10-footer {
+    padding:50px 278px;
+    background-color: #091242;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.s10-links a {
+    display: block;
+    color: #fff;
+    margin-bottom: 12px;
+}
